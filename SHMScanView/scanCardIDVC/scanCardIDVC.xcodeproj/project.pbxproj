@@ -15,6 +15,7 @@
 		188757562192D82600C8C086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188757552192D82600C8C086 /* main.m */; };
 		188757602192D82600C8C086 /* scanCardIDVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887575F2192D82600C8C086 /* scanCardIDVCTests.m */; };
 		1887576B2192D82600C8C086 /* scanCardIDVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887576A2192D82600C8C086 /* scanCardIDVCUITests.m */; };
+		1887577C2192D89400C8C086 /* MSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887577A2192D89300C8C086 /* MSRegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		188757662192D82600C8C086 /* scanCardIDVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scanCardIDVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887576A2192D82600C8C086 /* scanCardIDVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scanCardIDVCUITests.m; sourceTree = "<group>"; };
 		1887576C2192D82600C8C086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1887577A2192D89300C8C086 /* MSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRegisterViewController.m; sourceTree = "<group>"; };
+		1887577B2192D89300C8C086 /* MSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRegisterViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		188757452192D82300C8C086 /* scanCardIDVC */ = {
 			isa = PBXGroup;
 			children = (
+				1887577B2192D89300C8C086 /* MSRegisterViewController.h */,
+				1887577A2192D89300C8C086 /* MSRegisterViewController.m */,
 				188757462192D82300C8C086 /* AppDelegate.h */,
 				188757472192D82300C8C086 /* AppDelegate.m */,
 				188757492192D82300C8C086 /* ViewController.h */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1887574B2192D82300C8C086 /* ViewController.m in Sources */,
+				1887577C2192D89400C8C086 /* MSRegisterViewController.m in Sources */,
 				188757562192D82600C8C086 /* main.m in Sources */,
 				188757482192D82300C8C086 /* AppDelegate.m in Sources */,
 			);
